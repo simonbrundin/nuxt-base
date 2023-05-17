@@ -3,16 +3,21 @@
     <div>{{ nhost.auth.getUser()?.email }}</div>
     <!-- <div>{{ isAuthenticated }}</div> -->
 
-    <div class="flex gap-4">
-      <button
+    <div flex gap-4>
+      <Button
         @click="signOut()"
         class="bg-slate-700 px-4 py-4 rounded-lg text-slate-50"
       >
         Logga ut
-      </button>
+      </Button>
     </div>
-    <NuxtLink to="/ingredient/1">Ingredient 1</NuxtLink>
-    <NuxtLink to="/user/recipes">Mina recept</NuxtLink>
+    <div flex flex-col>
+      <NuxtLink to="/ingredient/1">Ingredient 1</NuxtLink>
+      <NuxtLink to="/user/recipes">Mina recept</NuxtLink>
+    </div>
+
+    <Button>Test</Button>
+    <Icon i-ph-chair-fill text-24px />
   </div>
 </template>
 
