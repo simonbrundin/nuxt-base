@@ -6,7 +6,12 @@ export default defineNuxtConfig({
     // SCSS file in the project
     "@/assets/css/main.scss",
   ],
-
+  unocss: {
+    // presets
+    attributify: true, // enabled `@unocss/preset-attributify`,
+    uno: true, // enabled `@unocss/preset-uno`
+    icons: true,
+  },
   imports: {
     dirs: ["./stores"],
   },
