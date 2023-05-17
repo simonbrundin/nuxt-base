@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   ssr: false,
 
-  modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt", "@nuxtjs/apollo"],
+  modules: ["@pinia/nuxt", "@nuxtjs/apollo"],
   buildModules: ["@nuxt/image"],
 
   css: [

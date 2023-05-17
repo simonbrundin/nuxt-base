@@ -24,7 +24,6 @@
     "@cucumber/cucumber": "^8.11.1",
     "@nuxt/image": "^0.7.1",
     "@nuxtjs/apollo": "5.0.0-alpha.6",
-    "@nuxtjs/tailwindcss": "^6.6.4",
     "@storybook/vue3-vite": "7.0.0-beta.50",
     "nuxt": "^3.3.2",
     "sass": "^1.60.0",
