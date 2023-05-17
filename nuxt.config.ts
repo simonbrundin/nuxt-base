@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@pinia/nuxt", "@nuxtjs/apollo", "@unocss/nuxt"],
-  buildModules: ["@nuxt/image"],
+  modules: ["@pinia/nuxt", "@nuxtjs/apollo", "@unocss/nuxt", "@nuxt/devtools"],
 
   css: [
     // SCSS file in the project
