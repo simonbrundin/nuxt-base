@@ -1,6 +1,7 @@
 <template>
   <div>
     <Icon i-carbon-home text-white />
+    Hej
   </div>
 </template>
 
