@@ -1,7 +1,13 @@
 {
-  "package-name": "nuxt-base",
-  "packageManager": "^pnpm@7.26.3",
-  "private": true,
+  "name": "@simonbrundin/nuxt-base",
+  "version": "0.1.0",
+  "description": "Nuxt.js base layer with useful components, composables and packages for many different types of project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonbrundin/nuxt-base.git"
+  },
+  "license": "MIT",
+  "author": "Simon Brundin",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
