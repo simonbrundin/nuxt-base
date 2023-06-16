@@ -1,11 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { createResolver } from "@nuxt/kit";
 
+const { resolve } = createResolver(import.meta.url);
 export default defineNuxtConfig({
   modules: ["@pinia/nuxt", "@nuxtjs/apollo", "@unocss/nuxt", "@nuxt/devtools"],
 
   css: [
     // SCSS file in the project
-    "@/assets/css/main.scss",
+    resolve("./assets/css/main.scss"),
   ],
   unocss: {
     // presets
