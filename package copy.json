@@ -1,0 +1,43 @@
+{
+  "name": "@simonbrundin/nuxt-base",
+  "version": "0.1.2",
+  "description": "Nuxt.js base layer with useful components, composables and packages for many different types of project",
+  "main": "./nuxt.config.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonbrundin/nuxt-base.git"
+  },
+  "license": "MIT",
+  "author": "Simon Brundin",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "cucumber-js --publish-quiet",
+    "storybook": "storybook dev -p 6006"
+  },
+  "dependencies": {
+    "@nhost/nhost-js": "^2.2.4",
+    "@nhost/vue": "^1.13.24",
+    "@pinia/nuxt": "^0.4.11",
+    "graphql": "^16.6.0",
+    "p-queue": "^7.3.4",
+    "pinia": "^2.1.0",
+    "throttle-debounce": "^5.0.0",
+    "vue-debounce": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.11.1",
+    "@iconify/json": "^2.2.66",
+    "@nuxt/devtools": "^0.4.6",
+    "@nuxtjs/apollo": "5.0.0-alpha.6",
+    "@types/node": "^20.1.7",
+    "@unocss/nuxt": "^0.51.13",
+    "nuxt": "^3.5.0",
+    "sass": "^1.62.1",
+    "vite-plugin-eslint": "^1.8.1",
+    "vitest": "^0.28.5"
+  }
+}
