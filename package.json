@@ -1,6 +1,6 @@
 {
   "name": "@simonbrundin/nuxt-base",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Nuxt.js base layer with useful components, composables and packages for many different types of project",
   "repository": {
     "type": "git",
