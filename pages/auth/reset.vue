@@ -31,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-import { useAuthStore } from "~/soon-stores/auth";
+import { useAuthStore } from "~/stores/auth";
 const authStore = useAuthStore();
 definePageMeta({ layout: "auth" });
 
@@ -56,3 +56,4 @@ const reset = async () => {
   grid-template-columns: 1fr 3fr 1fr;
 }
 </style>
+~/stores/auth

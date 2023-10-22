@@ -1,4 +1,4 @@
-import { useAuthStore } from "../soon-stores/auth";
+import { useAuthStore } from "../stores/auth";
 const router = useRouter();
 const alreadyLoggedIn = () => nhost.auth.isAuthenticated();
 export const loginWithPasskey = async (email: string) => {
