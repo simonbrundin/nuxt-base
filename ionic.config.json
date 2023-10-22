@@ -1,0 +1,7 @@
+{
+  "name": "@simonbrundin/nuxt-base",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
