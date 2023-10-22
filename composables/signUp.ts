@@ -14,7 +14,7 @@ export const signUpWithPasskey = async (email: string) => {
   navigateTo("/");
   return session;
 };
-const signUpWithMagicLink = async (email: string, password?: string) => {
+const signUpWithMagicLink = async (email: string, password: string) => {
   const { error, session } = await nhost.auth.signUp({
     email,
     password,
@@ -29,7 +29,7 @@ const signUpWithMagicLink = async (email: string, password?: string) => {
   navigateTo("/");
   return session;
 };
-export const signUp = async (email: string, password?: string) => {
+export const signUp = async (email: string, password: string) => {
   console.log("Start signUp");
 
   try {
@@ -38,7 +38,7 @@ export const signUp = async (email: string, password?: string) => {
     const authStore = useAuthStore();
     authStore.signInErrorMessage = "";
     return;
-  } catch (error) {
+  } catch (error: any) {
     const authStore = useAuthStore();
     authStore.signInErrorMessage = error.message;
   }
