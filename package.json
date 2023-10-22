@@ -2,7 +2,7 @@
   "name": "@simonbrundin/nuxt-base-layer",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "^bun@1.0.0",
+  "packageManager": "bun@1.0.0",
   "main": "./nuxt.config.ts",
   "scripts": {
     "build": "nuxt build",
@@ -12,14 +12,16 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.0.0",
+    "@nuxt/devtools": "latest",
+    "bun-types": "1.0.7",
     "nuxt": "^3.8.0",
-    "bun-types": "^1.0.7"
+    "vue": "3.3.6",
+    "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@nhost/nhost-js": "^2.2.17",
-    "@pinia/nuxt": "^0.5.1",
+    "@nhost/nhost-js": "2.2.17",
+    "@pinia/nuxt": "0.5.1",
     "@unocss/nuxt": "^0.56.5",
-    "vue-debounce": "^4.0.0"
+    "vue-debounce": "4.0.0"
   }
 }
