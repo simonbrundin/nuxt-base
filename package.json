@@ -6,18 +6,18 @@
   "main": "./nuxt.config.ts",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxi dev",
+    "dev": "nuxt dev",
     "generate": "nuxt generate"
   },
   "devDependencies": {
-    "nuxt": "^3.8.0"
+    "nuxt": "^3.8.0",
+    "bun-types": "^1.0.7"
   },
   "dependencies": {
     "@nhost/nhost-js": "^2.2.17",
     "@nuxt/devtools": "^1.0.0",
     "@pinia/nuxt": "^0.5.1",
     "@unocss/nuxt": "^0.56.5",
-    "bun-types": "^1.0.7",
     "vue-debounce": "^4.0.0"
   }
 }
