@@ -1,7 +1,10 @@
 {
-  "name": "nuxt-app",
+  "name": "test",
   "private": true,
   "type": "module",
+  "workspaces": [
+    "../../*"
+  ],
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -10,10 +13,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@simonbrundin/nuxt-layers-auth": "workspace:*",
     "@nuxt/devtools": "latest",
     "@nuxt/image": "latest",
     "nuxt": "^3.8.0",
     "vue": "^3.3.6",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@unocss/nuxt": "^0.57.0"
   }
 }

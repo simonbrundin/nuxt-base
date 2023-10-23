@@ -1,5 +1,5 @@
 {
-  "name": "@simonbrundin/nuxt-base-layer",
+  "name": "@simonbrundin/nuxt-layers-auth",
   "type": "module",
   "version": "0.0.1",
   "packageManager": "bun@1.0.0",
