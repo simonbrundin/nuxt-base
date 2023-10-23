@@ -63,7 +63,6 @@
 
 <script setup lang="ts">
 import { useAuthStore } from "~/stores/auth";
-definePageMeta({ layout: "auth" });
 
 const redirectIfLoggedIn = async () => {
   const alreadyLoggedIn = () => nhost.auth.isAuthenticatedAsync();
@@ -153,4 +152,3 @@ const reset = async () => {
   grid-template-columns: 1fr 3fr 1fr;
 }
 </style>
-~/stores/auth ~/base/stores/auth

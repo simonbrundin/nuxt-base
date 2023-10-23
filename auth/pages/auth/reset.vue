@@ -56,4 +56,3 @@ const reset = async () => {
   grid-template-columns: 1fr 3fr 1fr;
 }
 </style>
-~/stores/auth ~/base/stores/auth
