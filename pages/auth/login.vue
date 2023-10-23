@@ -51,7 +51,7 @@
       @click="signIn(email, password)"
       class="bg-slate-700 px-4 py-4 rounded-lg text-slate-50 grid google-button items-center"
     >
-      <NuxtImg src="/google-logo.png" class="w-4" />
+      <NuxtImg src="/google-logo.png" />
       <div>Fortsätt med Google</div>
     </button>
     <div>

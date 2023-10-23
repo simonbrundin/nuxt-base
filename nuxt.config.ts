@@ -6,4 +6,7 @@ export default defineNuxtConfig({
   imports: {
     dirs: ["./stores"],
   },
+  image: {
+    dir: "public/images",
+  },
 });
